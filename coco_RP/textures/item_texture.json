@@ -1,0 +1,18 @@
+{
+  "resource_pack_name": "coco",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "coco": {
+      "textures": "textures/items/coco"
+    },
+    "coco_amarelo": {
+      "textures": "textures/items/coco_amarelo"
+    },
+    "bosta_seca": {
+      "textures": "textures/items/bosta_seca"
+    },
+    "sopa_bosta": {
+      "textures": "textures/items/sopa_bosta"
+    }
+  }
+}

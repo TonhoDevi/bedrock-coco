@@ -1,0 +1,23 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.coco.voando": {
+      "loop": true,
+      "bones": {
+        "coco": {
+          "position": [
+            0,
+            -1.5,
+            0
+          ],
+          "scale": 0.85,
+          "rotation": [
+            "q.life_time * 540",
+            "q.life_time * 270",
+            0
+          ]
+        }
+      }
+    }
+  }
+}

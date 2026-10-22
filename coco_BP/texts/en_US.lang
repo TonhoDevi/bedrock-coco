@@ -1,0 +1,22 @@
+pack.name=Coco (Poop)
+pack.description=Cows poop every now and then. Collect, stack and throw it!
+item.coco:coco.name=Poop
+tile.coco:coco.name=Poop
+entity.coco:coco_arremessado.name=Thrown Poop
+coco.fedendo=You stink!
+coco.passou=The smell is gone.
+
+item.coco:coco_amarelo.name=Yellow poop
+tile.coco:coco_amarelo.name=Yellow poop
+entity.coco:vaca_amarela.name=Yellow Cow
+item.spawn_egg.entity.coco:vaca_amarela.name=Yellow Cow Spawn Egg
+
+item.coco:bosta_seca.name=Dry poop
+tile.coco:bosta_seca.name=Dry poop
+tile.coco:bosta_mancha.name=Poop stain
+entity.coco:bosta_seca_arremessada.name=Thrown dry poop
+
+item.coco:bosta_amarela.name=Yellow poop
+
+item.coco:sopa_bosta.name=Yellow poop soup
+coco.sopa_pronta=The water turned into poop soup!

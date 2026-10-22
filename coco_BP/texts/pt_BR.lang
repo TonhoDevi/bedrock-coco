@@ -1,0 +1,22 @@
+pack.name=Coco
+pack.description=Vacas fazem coco de vez em quando. Junte, empilhe e arremesse!
+item.coco:coco.name=Coco
+tile.coco:coco.name=Coco
+entity.coco:coco_arremessado.name=Coco arremessado
+coco.fedendo=Você está fedendo!
+coco.passou=O cheiro passou.
+
+item.coco:coco_amarelo.name=Bosta amarela
+tile.coco:coco_amarelo.name=Bosta amarela
+entity.coco:vaca_amarela.name=Vaca amarela
+item.spawn_egg.entity.coco:vaca_amarela.name=Ovo gerador de vaca amarela
+
+item.coco:bosta_seca.name=Bosta seca
+tile.coco:bosta_seca.name=Bosta seca
+tile.coco:bosta_mancha.name=Mancha de bosta
+entity.coco:bosta_seca_arremessada.name=Bosta seca arremessada
+
+item.coco:bosta_amarela.name=Bosta amarela
+
+item.coco:sopa_bosta.name=Sopa de bosta amarela
+coco.sopa_pronta=A água virou sopa de bosta!

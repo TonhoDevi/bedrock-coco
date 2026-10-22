@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "coco:coco_arremessado",
+      "is_spawnable": false,
+      "is_summonable": true
+    },
+    "components": {
+      "minecraft:type_family": { "family": ["projectile", "coco_arremessado"] },
+      "minecraft:collision_box": { "width": 0.25, "height": 0.25 },
+      "minecraft:physics": {},
+      "minecraft:projectile": {
+        "on_hit": {},
+        "gravity": 0.035,
+        "inertia": 0.97,
+        "power": 0.7
+      },
+      "minecraft:pushable_by_entity": {},
+      "minecraft:pushable_by_block": {}
+    }
+  }
+}

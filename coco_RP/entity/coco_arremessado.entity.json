@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "coco:coco_arremessado",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/blocks/coco"
+      },
+      "geometry": {
+        "default": "geometry.coco_projetil"
+      },
+      "animations": {
+        "voando": "animation.coco.voando"
+      },
+      "scripts": {
+        "animate": [
+          "voando"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}

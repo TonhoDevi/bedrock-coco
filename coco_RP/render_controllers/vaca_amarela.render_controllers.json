@@ -1,0 +1,30 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.vaca_amarela": {
+      "arrays": {
+        "textures": {
+          "Array.tex": [
+            "Texture.default",
+            "Texture.baby"
+          ]
+        },
+        "geometries": {
+          "Array.geo": [
+            "Geometry.default",
+            "Geometry.baby"
+          ]
+        }
+      },
+      "geometry": "Array.geo[query.is_baby ? 1 : 0]",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Array.tex[query.is_baby ? 1 : 0]"
+      ]
+    }
+  }
+}

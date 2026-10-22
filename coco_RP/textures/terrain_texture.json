@@ -1,0 +1,20 @@
+{
+  "resource_pack_name": "coco",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "coco": {
+      "textures": "textures/blocks/coco"
+    },
+    "coco_amarelo": {
+      "textures": "textures/blocks/coco_amarelo"
+    },
+    "bosta_seca": {
+      "textures": "textures/blocks/bosta_seca"
+    },
+    "bosta_mancha": {
+      "textures": "textures/blocks/bosta_mancha"
+    }
+  }
+}

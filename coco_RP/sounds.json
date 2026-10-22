@@ -1,0 +1,30 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "coco:vaca_amarela": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.cow.say",
+          "hurt": "mob.cow.hurt",
+          "death": {
+            "sound": "mob.cow.hurt",
+            "pitch": 0.9,
+            "volume": 0.5
+          },
+          "step": {
+            "sound": "mob.cow.step",
+            "volume": 0.65,
+            "pitch": [
+              0.9,
+              1.1
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "coco.diarreia": {
+      "category": "neutral",
+      "max_distance": 96,
+      "sounds": [
+        {
+          "name": "sounds/coco/peido_2",
+          "volume": 1.0
+        },
+        {
+          "name": "sounds/coco/peido_1",
+          "volume": 1.0
+        }
+      ]
+    },
+    "coco.splash": {
+      "category": "neutral",
+      "max_distance": 24,
+      "sounds": [
+        {
+          "name": "sounds/coco/splash_1",
+          "volume": 1.0
+        }
+      ]
+    },
+    "coco.teste_splash_1": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/coco/splash_1",
+          "volume": 1.0
+        }
+      ]
+    },
+    "coco.teste_splash_2": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/coco/splash_2",
+          "volume": 1.0
+        }
+      ]
+    },
+    "coco.teste_splash_3": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/coco/splash_3",
+          "volume": 1.0
+        }
+      ]
+    },
+    "coco.teste_splash_4": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/coco/splash_4",
+          "volume": 1.0
+        }
+      ]
+    },
+    "coco.teste_splash_5": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/coco/splash_5",
+          "volume": 1.0
+        }
+      ]
+    },
+    "coco.teste_splash_6": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/coco/splash_6",
+          "volume": 1.0
+        }
+      ]
+    },
+    "coco.teste_splash_7": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/coco/splash_7",
+          "volume": 1.0
+        }
+      ]
+    },
+    "coco.teste_splash_8": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/coco/splash_8",
+          "volume": 1.0
+        }
+      ]
+    },
+    "coco.teste_peido_1": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/coco/peido_1",
+          "volume": 1.0
+        }
+      ]
+    },
+    "coco.teste_peido_2": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/coco/peido_2",
+          "volume": 1.0
+        }
+      ]
+    },
+    "coco.passo": {
+      "category": "neutral",
+      "max_distance": 16,
+      "sounds": [
+        {
+          "name": "sounds/coco/passo_09",
+          "volume": 0.7
+        },
+        {
+          "name": "sounds/coco/passo_10",
+          "volume": 0.7
+        },
+        {
+          "name": "sounds/coco/passo_11",
+          "volume": 0.7
+        },
+        {
+          "name": "sounds/coco/passo_12",
+          "volume": 0.7
+        }
+      ]
+    }
+  }
+}

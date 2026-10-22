@@ -1,0 +1,197 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:block": {
+    "description": {
+      "identifier": "coco:bosta_seca",
+      "menu_category": {
+        "category": "nature"
+      },
+      "states": {
+        "coco:quantidade": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.coco_1",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "bosta_seca",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:collision_box": {
+        "origin": [
+          -3,
+          0,
+          -3
+        ],
+        "size": [
+          6,
+          3,
+          6
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -3,
+          0,
+          -3
+        ],
+        "size": [
+          6,
+          7,
+          6
+        ]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.2
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.5
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ]
+          }
+        ]
+      },
+      "minecraft:map_color": "#8a6238",
+      "minecraft:loot": "loot_tables/blocks/bosta_seca_1.json"
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('coco:quantidade') == 2",
+        "components": {
+          "minecraft:geometry": "geometry.coco_2",
+          "minecraft:selection_box": {
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              14,
+              7,
+              14
+            ]
+          },
+          "minecraft:loot": "loot_tables/blocks/bosta_seca_2.json",
+          "minecraft:collision_box": {
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              14,
+              3,
+              14
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('coco:quantidade') == 3",
+        "components": {
+          "minecraft:geometry": "geometry.coco_3",
+          "minecraft:selection_box": {
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              14,
+              7,
+              14
+            ]
+          },
+          "minecraft:loot": "loot_tables/blocks/bosta_seca_3.json",
+          "minecraft:collision_box": {
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              14,
+              3,
+              14
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('coco:quantidade') == 4",
+        "components": {
+          "minecraft:geometry": "geometry.coco_4",
+          "minecraft:selection_box": {
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              14,
+              7,
+              14
+            ]
+          },
+          "minecraft:loot": "loot_tables/blocks/bosta_seca_4.json",
+          "minecraft:collision_box": {
+            "origin": [
+              -7,
+              0,
+              -7
+            ],
+            "size": [
+              14,
+              3,
+              14
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('coco:quantidade') == 5",
+        "components": {
+          "minecraft:geometry": "geometry.coco_5",
+          "minecraft:selection_box": {
+            "origin": [
+              -6,
+              0,
+              -6
+            ],
+            "size": [
+              12,
+              15,
+              12
+            ]
+          },
+          "minecraft:loot": "loot_tables/blocks/bosta_seca_5.json",
+          "minecraft:collision_box": {
+            "origin": [
+              -6,
+              0,
+              -6
+            ],
+            "size": [
+              12,
+              7,
+              12
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

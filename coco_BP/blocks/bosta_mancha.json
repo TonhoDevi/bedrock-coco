@@ -1,0 +1,162 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:block": {
+    "description": {
+      "identifier": "coco:bosta_mancha",
+      "menu_category": {
+        "category": "none"
+      },
+      "states": {
+        "coco:face": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    "components": {
+      "minecraft:geometry": "geometry.mancha_up",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "bosta_mancha",
+          "render_method": "alpha_test_single_sided",
+          "ambient_occlusion": false,
+          "face_dimming": false
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          0,
+          -8
+        ],
+        "size": [
+          16,
+          1,
+          16
+        ]
+      },
+      "minecraft:light_dampening": 0,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.05
+      },
+      "minecraft:destructible_by_explosion": false,
+      "minecraft:map_color": "#8a6238",
+      "minecraft:loot": "loot_tables/blocks/vazio.json"
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('coco:face') == 0",
+        "components": {
+          "minecraft:geometry": "geometry.mancha_up",
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              1,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('coco:face') == 1",
+        "components": {
+          "minecraft:geometry": "geometry.mancha_down",
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              15,
+              -8
+            ],
+            "size": [
+              16,
+              1,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('coco:face') == 2",
+        "components": {
+          "minecraft:geometry": "geometry.mancha_north",
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              7
+            ],
+            "size": [
+              16,
+              16,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('coco:face') == 3",
+        "components": {
+          "minecraft:geometry": "geometry.mancha_south",
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              16,
+              1
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('coco:face') == 4",
+        "components": {
+          "minecraft:geometry": "geometry.mancha_west",
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              1,
+              16,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('coco:face') == 5",
+        "components": {
+          "minecraft:geometry": "geometry.mancha_east",
+          "minecraft:selection_box": {
+            "origin": [
+              7,
+              0,
+              -8
+            ],
+            "size": [
+              1,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

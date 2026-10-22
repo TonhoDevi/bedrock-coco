@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "coco:vaca_amarela",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "cow"
+      },
+      "textures": {
+        "default": "textures/entity/vaca_amarela",
+        "baby": "textures/entity/vaca_amarela_filhote"
+      },
+      "geometry": {
+        "default": "geometry.cow.v2",
+        "baby": "geometry.cow.baby"
+      },
+      "animations": {
+        "setup": "animation.cow.setup",
+        "walk": "animation.quadruped.walk",
+        "look_at_target": "animation.common.look_at_target",
+        "baby_transform": "animation.cow.baby_transform"
+      },
+      "scripts": {
+        "animate": [
+          "setup",
+          {
+            "walk": "query.modified_move_speed"
+          },
+          "look_at_target"
+        ],
+        "scale": "query.is_baby ? 2.0 : 1.0"
+      },
+      "render_controllers": [
+        "controller.render.vaca_amarela"
+      ],
+      "spawn_egg": {
+        "base_color": "#3f3024",
+        "overlay_color": "#fad714"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "coco:sopa_superficie",
+      "materials": {
+        "default": "entity_alphablend"
+      },
+      "textures": {
+        "default": "textures/entity/sopa_superficie"
+      },
+      "geometry": {
+        "default": "geometry.sopa_superficie"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}

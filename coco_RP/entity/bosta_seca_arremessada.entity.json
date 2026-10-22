@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "coco:bosta_seca_arremessada",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/blocks/bosta_seca"
+      },
+      "geometry": {
+        "default": "geometry.coco_projetil"
+      },
+      "animations": {
+        "voando": "animation.coco.voando"
+      },
+      "scripts": {
+        "animate": [
+          "voando"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}
