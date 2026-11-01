@@ -24,18 +24,7 @@
           "render_method": "opaque"
         }
       },
-      "minecraft:collision_box": {
-        "origin": [
-          -3,
-          0,
-          -3
-        ],
-        "size": [
-          6,
-          3,
-          6
-        ]
-      },
+      "minecraft:collision_box": false,
       "minecraft:selection_box": {
         "origin": [
           -3,
@@ -84,19 +73,7 @@
               14
             ]
           },
-          "minecraft:loot": "loot_tables/blocks/coco_2.json",
-          "minecraft:collision_box": {
-            "origin": [
-              -7,
-              0,
-              -7
-            ],
-            "size": [
-              14,
-              3,
-              14
-            ]
-          }
+          "minecraft:loot": "loot_tables/blocks/coco_2.json"
         }
       },
       {
@@ -115,19 +92,7 @@
               14
             ]
           },
-          "minecraft:loot": "loot_tables/blocks/coco_3.json",
-          "minecraft:collision_box": {
-            "origin": [
-              -7,
-              0,
-              -7
-            ],
-            "size": [
-              14,
-              3,
-              14
-            ]
-          }
+          "minecraft:loot": "loot_tables/blocks/coco_3.json"
         }
       },
       {
@@ -146,19 +111,7 @@
               14
             ]
           },
-          "minecraft:loot": "loot_tables/blocks/coco_4.json",
-          "minecraft:collision_box": {
-            "origin": [
-              -7,
-              0,
-              -7
-            ],
-            "size": [
-              14,
-              3,
-              14
-            ]
-          }
+          "minecraft:loot": "loot_tables/blocks/coco_4.json"
         }
       },
       {
@@ -177,19 +130,7 @@
               12
             ]
           },
-          "minecraft:loot": "loot_tables/blocks/coco_5.json",
-          "minecraft:collision_box": {
-            "origin": [
-              -6,
-              0,
-              -6
-            ],
-            "size": [
-              12,
-              7,
-              12
-            ]
-          }
+          "minecraft:loot": "loot_tables/blocks/coco_5.json"
         }
       }
     ]
